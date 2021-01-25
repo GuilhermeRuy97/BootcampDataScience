@@ -1,2 +1,2 @@
 # BootcampDataScience
-Nesse repositório, estarão os arquivos e projetos do projeto de Bootcamp Data Science Aplicada 2021
+Nesse repositório, estarão os arquivos e projetos do Bootcamp Data Science Aplicada 2021
