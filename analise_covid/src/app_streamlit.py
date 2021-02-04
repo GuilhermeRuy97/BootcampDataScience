@@ -44,10 +44,10 @@ def main():
     st.title("Análise de Óbitos 2019-2020")
     st.markdown("Este trabalho analisa dados dos **óbitos 2019-2020**")
 
-    opcao_1 = st.selectbox("Selecione o tipo de doença",
+    opcao_1 = st.sidebar.selectbox("Selecione o tipo de doença",
                            tipo_doenca)
-    opcao_2 = st.selectbox("Selecione o Estado", estado)
-    
+    opcao_2 = st.sidebar.selectbox("Selecione o Estado", estado)
+
     figura = grafico_comparativo(obitos_2019, obitos_2020,
                                  opcao_1, opcao_2)
 
