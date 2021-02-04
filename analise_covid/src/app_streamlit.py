@@ -6,6 +6,7 @@ import numpy as np
 
 #Para rodar: streamlit run src/app_streamlit.py
 
+@st.cache
 def carrega_dados(caminho):
     dados = pd.read_csv(caminho)
     return dados
